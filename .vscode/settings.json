@@ -1,3 +1,6 @@
 {
     "prettier.tabWidth": 4
+    "[prisma]": {
+        "editor.formatOnSave": true
+    }
 }
