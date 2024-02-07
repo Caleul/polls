@@ -6,7 +6,6 @@ services:
         ports:
             - '5432:5432'
         environment:
-            - ALLOW_EMPTY_PASSWORD=yes
             - POSTGRES_USER=docker
             - POSTGRES_PASSWORD=docker
             - POSTGRES_DB=polls
